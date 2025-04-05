@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Python
+ai-service/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+*.env.local
+
+# Build artifacts
+frontend/dist/
+
+# FAISS indices
+ai-service/data/faiss/
+
+# Fine-tuning artifacts
+ai-service/training/results/
+ai-service/training/checkpoints/
+ai-service/training/data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+*.md
+!Important Interview Qs.md
+!README.md
+
+ai-service/downloads/
