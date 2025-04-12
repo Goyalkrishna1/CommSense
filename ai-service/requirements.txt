@@ -1,0 +1,23 @@
+# Core AI service dependencies
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-dotenv==1.0.1
+pydantic==2.7.4
+
+# NLP / ML libraries (installed incrementally as pipelines are built)
+# Phase 1:
+transformers==4.41.2
+torch==2.3.1
+sentence-transformers==3.0.1
+langdetect==1.0.9
+emoji==2.12.1
+bertopic==0.16.0
+numpy==1.26.4
+scikit-learn==1.5.0
+
+# Phase 4 (search):
+faiss-cpu==1.8.0
+spacy==3.7.5
+
+# Phase 6 (LLM summarization):
+groq==0.9.0
